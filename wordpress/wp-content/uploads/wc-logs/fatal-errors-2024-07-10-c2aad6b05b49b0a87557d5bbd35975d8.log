@@ -1,0 +1,32 @@
+2024-07-10T17:54:02+00:00 CRITICAL Uncaught Error: Class "Blocksy\ConditionsRulesResolver" not found in /var/www/html/wp-content/plugins/blocksy-companion/framework/features/conditions-manager.php:55
+Stack trace:
+#0 [internal function]: Blocksy\ConditionsManager->Blocksy\{closure}(Array)
+#1 /var/www/html/wp-content/plugins/blocksy-companion/framework/features/conditions-manager.php(48): array_filter(Array, Object(Closure))
+#2 /var/www/html/wp-content/plugins/blocksy-companion/framework/features/header.php(390): Blocksy\ConditionsManager->condition_matches(Array)
+#3 /var/www/html/wp-content/plugins/blocksy-companion/framework/features/header.php(233): Blocksy\HeaderAdditions->current_screen_has_transparent(false, 'type-1')
+#4 /var/www/html/wp-includes/class-wp-hook.php(308): Blocksy\HeaderAdditions->Blocksy\{closure}(Array)
+#5 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#6 /var/www/html/wp-content/themes/blocksy/inc/components/customizer-builder.php(155): apply_filters('blocksy:header:...', Array)
+#7 /var/www/html/wp-content/themes/blocksy/inc/components/customizer-builder.php(68): Blocksy_Customizer_Builder->load_dynamic_css_for_section(Array, Array)
+#8 /var/www/html/wp-content/themes/blocksy/inc/dynamic-styles/global.php(7): Blocksy_Customizer_Builder->dynamic_css('header', Array)
+#9 /var/www/html/wp-content/themes/blocksy/inc/helpers.php(349): require('/var/www/html/w...')
+#10 /var/www/html/wp-content/themes/blocksy/inc/dynamic-css.php(592): blocksy_get_variables_from_file('/var/www/html/w...', Array, NULL)
+#11 /var/www/html/wp-content/themes/blocksy/inc/dynamic-css.php(450): blocksy_theme_get_dynamic_styles(Array)
+#12 /var/www/html/wp-content/themes/blocksy/inc/dynamic-css.php(341): blocksy_get_all_dynamic_styles_for(Array)
+#13 /var/www/html/wp-content/themes/blocksy/inc/dynamic-css.php(23): Blocksy_Dynamic_Css->maybe_set_global_styles_descriptor()
+#14 /var/www/html/wp-includes/class-wp-hook.php(308): Blocksy_Dynamic_Css->{closure}('')
+#15 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#17 /var/www/html/wp-content/plugins/blocksy-companion/framework/cache-reset-manager.php(48): do_action('blocksy:dynamic...')
+#18 /var/www/html/wp-includes/class-wp-hook.php(308): Blocksy\CacheResetManager->handle_update(Object(Plugin_Upgrader), Array)
+#19 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#20 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /var/www/html/wp-admin/includes/class-plugin-upgrader.php(364): do_action('upgrader_proces...', Object(Plugin_Upgrader), Array)
+#22 /var/www/html/wp-admin/includes/ajax-actions.php(4577): Plugin_Upgrader->bulk_upgrade(Array)
+#23 /var/www/html/wp-includes/class-wp-hook.php(308): wp_ajax_update_plugin('')
+#24 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#25 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#26 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_update-...')
+#27 {main}
+  thrown in /var/www/html/wp-content/plugins/blocksy-companion/framework/features/conditions-manager.php on line 55
+

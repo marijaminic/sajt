@@ -1,0 +1,132 @@
+2023-01-08T18:14:38+00:00 CRITICAL Uncaught ArgumentCountError: 4 arguments are required, 3 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\theme.php:1028
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\theme.php(1028): sprintf('[{"title":"Exel...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(633): get_theme_mod('spice_software_...', '[{"title":"Exel...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(778): WP_Customize_Setting->get_root_value('[{"title":"Exel...')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(802): WP_Customize_Setting->value()
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(820): WP_Customize_Setting->js_value()
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-manager.php(4972): WP_Customize_Setting->json()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings('')
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\customize.php(292): do_action('customize_contr...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\theme.php on line 1028
+
+2023-01-08T18:16:50+00:00 CRITICAL Uncaught ArgumentCountError: 4 arguments are required, 3 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\theme.php:1028
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\theme.php(1028): sprintf('[{"title":"Exel...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(633): get_theme_mod('spice_software_...', '[{"title":"Exel...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(778): WP_Customize_Setting->get_root_value('[{"title":"Exel...')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(802): WP_Customize_Setting->value()
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-setting.php(820): WP_Customize_Setting->js_value()
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-customize-manager.php(4972): WP_Customize_Setting->json()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->customize_pane_settings('')
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\customize.php(292): do_action('customize_contr...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\theme.php on line 1028
+
+2023-01-08T19:26:16+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php(20): sprintf('<a href="http:/...', 'functions.php', 'Click to edit f...', '<code>functions...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(133): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\files.php(8): ChildThemeConfiguratorUI->render_file_form('parnt')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\main.php(68): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(64): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php(135): ChildThemeConfiguratorUI->render()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Core.php(131): ChildThemeConfiguratorAdmin->render()
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): ChildThemeConfigurator::render('')
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\admin.php(259): do_action('tools_page_chld...')
+#11 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php on line 20
+
+2023-01-08T19:27:42+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php(20): sprintf('<a href="http:/...', 'functions.php', 'Click to edit f...', '<code>functions...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(133): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\files.php(8): ChildThemeConfiguratorUI->render_file_form('parnt')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\main.php(68): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(64): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php(135): ChildThemeConfiguratorUI->render()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Core.php(131): ChildThemeConfiguratorAdmin->render()
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): ChildThemeConfigurator::render('')
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\admin.php(259): do_action('tools_page_chld...')
+#11 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php on line 20
+
+2023-01-08T19:28:37+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php(20): sprintf('<a href="http:/...', 'functions.php', 'Click to edit f...', '<code>functions...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(133): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\files.php(8): ChildThemeConfiguratorUI->render_file_form('parnt')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\main.php(68): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(64): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php(135): ChildThemeConfiguratorUI->render()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Core.php(131): ChildThemeConfiguratorAdmin->render()
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): ChildThemeConfigurator::render('')
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\admin.php(259): do_action('tools_page_chld...')
+#11 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php on line 20
+
+2023-01-08T19:29:43+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php(20): sprintf('<a href="http:/...', 'functions.php', 'Click to edit f...', '<code>functions...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(133): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\files.php(8): ChildThemeConfiguratorUI->render_file_form('parnt')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\main.php(68): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(64): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php(135): ChildThemeConfiguratorUI->render()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Core.php(131): ChildThemeConfiguratorAdmin->render()
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): ChildThemeConfigurator::render('')
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\admin.php(259): do_action('tools_page_chld...')
+#11 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php on line 20
+
+2023-01-08T19:31:22+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php(20): sprintf('<a href="http:/...', 'functions.php', 'Click to edit f...', '<code>functions...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(133): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\files.php(8): ChildThemeConfiguratorUI->render_file_form('parnt')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\main.php(68): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(64): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php(135): ChildThemeConfiguratorUI->render()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Core.php(131): ChildThemeConfiguratorAdmin->render()
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): ChildThemeConfigurator::render('')
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\admin.php(259): do_action('tools_page_chld...')
+#11 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php on line 20
+
+2023-01-08T19:34:46+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php(20): sprintf('<a href="http:/...', 'functions.php', 'Click to edit f...', '<code>functions...')
+#1 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(133): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\files.php(8): ChildThemeConfiguratorUI->render_file_form('parnt')
+#3 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\main.php(68): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\UI.php(64): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Admin.php(135): ChildThemeConfiguratorUI->render()
+#6 C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\classes\Core.php(131): ChildThemeConfiguratorAdmin->render()
+#7 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(308): ChildThemeConfigurator::render('')
+#8 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress sajt\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\admin.php(259): do_action('tools_page_chld...')
+#11 C:\xampp\htdocs\wordpress sajt\wordpress\wp-admin\tools.php(40): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress sajt\wordpress\wp-content\plugins\child-theme-configurator\includes\forms\fileform.php on line 20
+

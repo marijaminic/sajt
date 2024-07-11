@@ -1,0 +1,63 @@
+services:
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress_container
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: Marija
+      WORDPRESS_DB_PASSWORD: maja321 
+    volumes:
+      - ./wordpress:/var/www/html
+    ports:
+      - "8080:80"
+    networks:
+      - wordpress_network
+    depends_on:
+      - db
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+  db:
+    image: mysql/mysql-server
+    container_name: db_container
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: Marija
+      MYSQL_PASSWORD: maja321
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./db:/var/lib/mysql
+      - ./shema:/docker-entrypoint-initdb.d
+    networks:
+      - wordpress_network
+    restart: always
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "--silent"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+  phpmyadmin:
+    image: arm64v8/phpmyadmin
+    container_name: phpmyadmin
+    ports:
+      - "8081:80"
+    networks:
+      - wordpress_network
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root
+      PMA_USER: Marija
+      PMA_PASSWORD: maja321
+    depends_on:
+      - db
+    restart: always
+networks:
+  wordpress_network:
+volumes:
+  wordpress_container:
+  db_container:
+
