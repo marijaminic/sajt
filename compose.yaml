@@ -1,4 +1,3 @@
-name: "sajt - vinyl records"
 services:
   wordpress:
     image: wordpress:latest
